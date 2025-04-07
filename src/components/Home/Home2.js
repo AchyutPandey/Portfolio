@@ -73,8 +73,11 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1><span className="purple">FIND ME </span> ON </h1>
             <p>
-              Feel free to connect with me
-            </p>
+              {/* Feel free to connect with me <br></br><br></br> */}
+              <br></br>
+              <span className="purple">E MAIL </span>: achyut23pandey@gmail.com<br></br>
+              <span className="purple">CONTACT NO.</span>: +91 8382929157
+            </p><br></br>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -108,7 +111,7 @@ function Home2() {
               </li>
               {/* <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="mailto:achyut23pandey@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
